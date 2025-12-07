@@ -5,7 +5,7 @@ def get_results(query):
     print(f"\n🔎 System: Googling '{query}'...")
     output = ""
     try:
-        # advanced=True gets the title and description automatically 
+        # advanced=True gets the title and description automatically
         results = list(search(query, num_results=3, advanced=True))
         
         if not results:
