@@ -1,8 +1,6 @@
 """
 OMI AI Desktop App
 ------------------
-How to run:
-    streamlit run omi_app.py
 """
 
 import streamlit as st

@@ -10,7 +10,7 @@ from PyQt6.QtCore import Qt, QThread, pyqtSignal, QSize, QTimer, QUrl, QPoint, Q
 from PyQt6.QtGui import (QIcon, QFont, QColor, QPalette, QPainter, QLinearGradient, 
                          QRadialGradient, QPen, QBrush, QTextCursor, QTextCharFormat, QDesktopServices)
 
-# --- CUSTOM BROWSER (FIXED MOUSE HANDLING) ---
+# --- CUSTOM BROWSER  (FIXED MOUSE HANDLING) ---
 class ChatBrowser(QTextBrowser):
     copy_requested = pyqtSignal(int)
 

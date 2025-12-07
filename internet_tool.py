@@ -4,7 +4,7 @@ def search(query):
     print(f"\n🔎 System: Searching DuckDuckGo for '{query}'...")
     output = ""
     try:
-        # Get results (wt-wt = no region, safe search off)
+        #Get results (wt-wt = no region, safe search off)
         results = DDGS().text(keywords=query, region='wt-wt', max_results=3)
         
         if not results:
