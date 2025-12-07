@@ -47,7 +47,7 @@ while True:
             prompt = f"I searched for '{query}'. Here are the results:\n{search_data}\n\nPlease summarize these findings."
             interpreter.chat(prompt)
             
-        # 3. NORMAL CHAT
+        # 3. NORMAL CHAT.
         else:
             interpreter.chat(user_input)
             
